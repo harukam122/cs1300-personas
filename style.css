@@ -24,8 +24,8 @@ h4 {
     font-family: 'Dekko', bold;
 }
 
-h3 {
-    padding-top: 2rem;
+#home {
+    height: calc(100vh - 56px);
 }
 
 .profile {
@@ -34,4 +34,9 @@ h3 {
     width: 8rem;
     height: 8rem;
     object-fit: cover;
+}
+
+#interface-img {
+    width: 30rem;
+    height: 30rem;
 }

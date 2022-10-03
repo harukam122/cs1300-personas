@@ -10,13 +10,14 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm navbar-dark">
+<nav class="navbar sticky-top navbar-expand-sm navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Haruka Masamura - Personas</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto">
                 <li class="navbar-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="navbar-item"><a href="#interviews" class="nav-link">Interviews</a></li>
+                <li class="navbar-item"><a href="#interface" class="nav-link">Interface</a></li>
+                <li class="navbar-item"><a href="#research" class="nav-link">Research</a></li>
                 <li class="navbar-item"><a href="#personas" class="nav-link">Personas</a></li>
                 <li class="navbar-item"><a href="#storyboard" class="nav-link">Storyboard</a></li>
             </ul>
@@ -24,32 +25,104 @@
     </div>
 </nav>
 
-<div id="home" class="d-flex flex-column align-items-center py-5">
+<div id="home" class="d-flex flex-column align-items-center justify-content-center p-5">
     <img src="images/summertime.png" alt="sun icon" style="width: 10rem; height: 10rem;">
     <h1 class="display-1">Personas & Storyboard</h1>
     <h4>Read on to read about my research!</h4>
 </div>
 
-<div id="about" class="container-fluid bg-white text-center py-5">
-    <h3>About</h3>
-    <p class="lead">This project is blah blah blah</p>
+<div id="about" class="container-fluid bg-white text-center p-5">
+    <h2>About</h2>
+    <img class="m-5" src="images/about.png" alt="question mark icon">
+    <p class="lead">
+        In this assignment, I observed and interviewed users of the Coca Cola drink
+        dispenser placed in the Ratty.<br>
+        Below, I will present the details and my findings of the assignment!
+    </p>
+</div>
+
+<div id="interface" class="container-fluid text-center p-5">
+    <h2>Interface</h2>
+    <img id="interface-img" class="mb-5" src="images/interface.png" alt="drink dispenser drawing">
+    <h4><b>Cola Drink Dispenser</b></h4>
+    <div class="d-inline-block text-start">
+        <h4>Key Components</h4>
+        <ul>
+            <li>
+                touch panel
+                <ul>
+                    <li><b>drink options:</b> allows the user to tap and select various flavors for each option</li>
+                    <li><b>category filter buttons:</b> allows the user to filter via low/no calorie, caffeine free, etc.</li>
+                    <li><b>exclusive flavors button:</b> displays and allows the user to select exclusive flavors not found elsewhere on the interface</li>
+                    <li><b>QR code:</b> the user can scan to pour a drink contact-free</li>
+                </ul>
+            </li>
+            <li><b>ice dispenser:</b> the user can dispense ice by pressing on the metal bar with a cup</li>
+            <li><b>drink dispenser:</b> the user can dispense the selected drink by pressing on the metal part with a cup</li>
+        </ul>
+        <br>
+        This interface intends to solve the problem of having to get different
+        kinds of drinks from different dispensers by combining all kinds (soda, 
+        tea, lemonade, water, etc.) into one drink dispenser with a digital 
+        selection panel.
+        <br>
+        To use the machine, a user must first press on the ice dispensing bar with their cup to obtain ice (if they want), 
+        select a drink type/flavor on the digital screen, and press on the drink dispensing bar to pour their drink.
+    </div>
+</div>
+
+<div id="research" class="container-fluid bg-white text-center p-5">
+    <h2>Research</h2>
+    <div class="d-inline-block text-start">
+        <h4>Observations</h4>
+        <ul>
+            <li>Many users seemed accustomed to the way the machine worked.</li>
+            <li>No user was confused as to which dispenser was for ice vs drinks.</li>
+            <li>Only 1 user paused looking at the various flavors once selecting the drink type</li>
+            <li>All users went to press the ice dispenser before looking at the digital screen</li>
+        </ul>
+        <br>
+        <h4>Questions</h4>
+        <ol>
+            <li>What was the feature you first noticed?</li>
+            <li>Did you already have a drink in mind coming in?</li>
+            <li>If so, did the design/placement of the drink buttons change your mind at all?</li>
+            <li>Was the flow clear? Was what to do next obvious?</li>
+            <li>Was there anything surprising or unexpected about the interface?</li>
+            <li>Did you notice the buttons on the bottom or the exclusive flavor options?</li>
+        </ol>
+        <br>
+        <h4>Responses</h4>
+        <ul>
+            <li>3 out of the 4 users interviewed answered that the first feature they noticed was the collection of many options and colors on the screen.</li>
+            <li>Many already had a drink in mind, but only one changed their mind after looking at the options. The one user who changed their mind picked a drink from the center cluster of drinks.</li>
+            <li>All users found the flow and the expected actions to take very clear and unconfusing. They are also accustomed users of the machine, so not much thinking is required.</li>
+            <li>No surprising elements were not found while they were interacting with the interface, but were surprised to find the filters and the Exclusive Flavors button once looking at the interface closely.</li>
+            <li>3 out of the 4 users never noticed the filters. Some users had dismissed the Exclusive Flavors button to be an advertisement, as it seemed like a non-button, static element similar to the QR code.</li>
+        </ul>
+    </div>
 </div>
 
 <div id="personas" class="py-5">
-    <h3 class="text-center">Personas</h3>
+    <h2 class="text-center">Personas</h2>
     <div class="container">
         <hr class="mb-5">
         <div class="row text-center justify-content-center">
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-6">
                 <img class="profile" src="images/user-1.png" alt="persona icon">
-                <h5>Gabbi Araujo</h5>
+                <h5>Fun Fabian</h5>
             </div>
             <div class="col-12 col-md-6">
                 <img class="profile" src="images/user-2.png" alt="persona icon">
-                <h5>John Doe</h5>
+                <h5>Simple Sam</h5>
             </div>
         </div>
     </div>
+</div>
+
+<div id="storyboard" class="container-fluid bg-white text-center p-5">
+    <h2>Storyboard</h2>
+    <p class="lead">This project is blah blah blah</p>
 </div>
 
 <footer class="bg-white text-center py-3">
