@@ -24,15 +24,40 @@ h4 {
     font-family: 'Dekko', bold;
 }
 
+h2,
+h3,
+h4,
+p,
+ul {
+    color: rgb(44, 44, 44);
+}
+
 #home {
     height: calc(100vh - 56px);
 }
 
+#about,
+#personas {
+    background-color: rgb(219, 245, 255);
+}
+
 .profile {
-    /* border: 0.2rem solid white;
-    border-radius: 50%; */
+    border: 0.2rem solid white;
+    border-radius: 50%;
     width: 8rem;
     height: 8rem;
+    object-fit: cover;
+}
+
+.empathy-map {
+    width: 70%;
+    /* width: 30rem;
+    height: 30rem; */
+    object-fit: cover;
+}
+
+#storyboard-drawing {
+    width: 80%;
     object-fit: cover;
 }
 
